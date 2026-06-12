@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.next/
+.venv/
+venv/
+env/
+vendor/
+.angular/
+.cache/
+coverage/
+.DS_Store
+.vscode/
