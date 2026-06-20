@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" preserveAspectRatio="none" role="img" aria-label="Tło stołu">
+  <rect width="420" height="120" fill="#7a4d2a"/>
+  <rect x="0" width="74" height="120" fill="#865834"/>
+  <rect x="74" width="96" height="120" fill="#704426"/>
+  <rect x="170" width="82" height="120" fill="#8b5a32"/>
+  <rect x="252" width="78" height="120" fill="#744728"/>
+  <rect x="330" width="90" height="120" fill="#8a5a35"/>
+  <path d="M22 18c45 14 78 2 123 14 38 10 85 9 125-4 43-13 82-7 128 8" fill="none" stroke="#5c361f" stroke-width="3" opacity=".28"/>
+  <path d="M15 86c62-14 118 14 184-1 51-12 104-9 191 4" fill="none" stroke="#b77a45" stroke-width="3" opacity=".22"/>
+</svg>

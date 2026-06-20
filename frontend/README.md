@@ -1,59 +1,53 @@
-# Frontend
+# Leśna Wyprawa
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
+Gra planszowa 2D zbudowana w Angularze. Plansza jest widziana z góry, jak tradycyjna gra leżąca na stole.
 
-## Development server
+## Uruchomienie
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Lokalnie na Windows:
 
 ```bash
-ng generate component component-name
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Adres w przeglądarce:
+
+```text
+http://localhost:4200
+```
+
+Na Ubuntu w maszynie wirtualnej:
 
 ```bash
-ng generate --help
+npm start -- --host 0.0.0.0
 ```
 
-## Building
+Adres z komputera hosta:
 
-To build the project run:
-
-```bash
-ng build
+```text
+http://10.40.30.164:4200
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Assety
 
-## Running unit tests
+Własne assety SVG znajdują się w `public/assets/`:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- `pionek.svg` - fizyczny pionek gracza,
+- `card-back.svg` - rewers stosu kart zdarzeń,
+- `token.svg` - żeton leśny,
+- `dice.svg` - tło kostki,
+- `table-bg.svg` - drewniane tło stołu.
 
-```bash
-ng test
-```
+## Dźwięki
 
-## Running end-to-end tests
+Gra obsługuje pliki MP3 w `public/sounds/`:
 
-For end-to-end (e2e) testing, run:
+- `click.mp3`
+- `dice.mp3`
+- `card.mp3`
+- `bonus.mp3`
+- `trap.mp3`
+- `win.mp3`
+- `forest.mp3`
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Dźwięki są opcjonalne. Jeśli plik MP3 nie istnieje, jest pusty albo przeglądarka zablokuje odtwarzanie, gra łapie błąd i używa bezpiecznego fallbacku przez Web Audio API. Dzięki temu brak dźwięku nie zatrzymuje rozgrywki.

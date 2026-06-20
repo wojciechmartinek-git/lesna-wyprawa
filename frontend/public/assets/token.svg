@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Żeton leśny">
+  <circle cx="40" cy="40" r="34" fill="#d89b36" stroke="#68421f" stroke-width="7"/>
+  <circle cx="40" cy="40" r="24" fill="#e7b94f" stroke="#9a6826" stroke-width="4"/>
+  <path d="M40 18c11 12 16 23 16 34 0 10-7 18-16 18s-16-8-16-18c0-11 5-22 16-34z" fill="#315f2f"/>
+  <path d="M40 30v30M30 47h20" stroke="#f6e3a2" stroke-width="5" stroke-linecap="round"/>
+</svg>
